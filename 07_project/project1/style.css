@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #212121;
+  color: white;
+}
+
+.canvas {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+#gray {
+  background-color: gray;
+}
+
+#white {
+  background-color: white;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#black {
+  background-color: black;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#aqua {
+  background-color: aqua;
+}
+
+#brown {
+  background-color: brown;
+}
+
+#maroon {
+  background-color: maroon;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#blueviolet {
+  background-color: blueviolet;
+}
+
+#darkblue {
+  background-color: darkblue;
+}
+
+#green {
+  background-color: green;
+}
+
+#skyblue {
+  background-color: skyblue;
+}
+
+#darkmagenta {
+  background-color: darkmagenta;
+}
+
+#burlywood {
+  background-color: burlywood;
+}
+
+#darkgreen {
+  background-color: darkgreen;
+}
+
+#cadetblue {
+  background-color: cadetblue;
+}
+
+#chartreuse {
+  background-color: chartreuse;
+}
+
+#chocolate {
+  background-color: chocolate;
+}
+
+#teal {
+  background-color: teal;
+}
+
+#slategray {
+  background-color: slategray;
+}
+
+#violet {
+  background-color: violet;
+}
+
+#darkred {
+  background-color: darkred;
+}
+
+#navy {
+  background-color: navy;
+}
+
+h1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
