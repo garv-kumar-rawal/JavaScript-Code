@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>setTimeout & setInterval</h1>
+    <button id="stop">stop</button>
+    
+</body>
+<script>
+    const say = function() {
+        console.log(`Garv`);
+    }
+    const changeText = function(){
+        document.querySelector("h1").innerHTML = "it is changing the text"
+    }
+
+    const stopME = setTimeout(changeText, 5000)  // hold the reference in the variable for clearTimeout
+    setTimeout(say, 2000)
+
+    document.querySelector("#stop").addEventListener('click', function() {
+        clearTimeout(stopME) 
+        console.log(`STOPPED`);
+        
+    })
+</script>
+</html>

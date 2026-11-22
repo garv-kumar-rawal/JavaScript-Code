@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Diplay</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        .project {
+            background-color: #1c1c1c;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        .color {
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+        }
+
+        nav {
+            width: 100%;
+            height: 27px;
+            background-color: #eeeeee;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Navigation Buttons */
+        .nav-btn {
+            text-decoration: none;
+            color: black;
+            background-color: #dddddd;
+
+            border: 1px solid #777;
+            border-radius: 3px;
+
+            padding: 3px 18px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/07_projects/" class="nav-btn">Home</a>
+
+        <a href="#" target="_blank" class="nav-btn">
+            New Tab
+        </a>
+    </nav>
+    <div class="project">
+        <div id="insert">
+            <div id="key">enter the key and see magic</div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
